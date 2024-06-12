@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tienda Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      padding: 10px;
+    }
+    nav a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+    main {
+      padding: 20px;
+    }
+    .product-image {
+      max-width: 300px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tienda Online</h1>
+  </header>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Carrito</a>
+    <a href="#">Contacto</a>
+  </nav>
+  <main>
+    <h2>Bienvenido a nuestra tienda online</h2>
+    <p>Aquí podrás encontrar una gran variedad de productos a precios competitivos.</p>
+    <h2>Productos destacados</h2>
+    <img src="producto.jpg" alt="Producto destacado" class="product-image">
+    <ul>
+      <li>Producto 1 - $19.99</li>
+      <li>Producto 2 - $29.99</li>
+      <li>Producto 3 - $39.99</li>
+    </ul>
+    <button>Agregar al carrito</button>
+  </main>
+  <footer>
+    <p>&copy; 2024 Tienda Online. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
